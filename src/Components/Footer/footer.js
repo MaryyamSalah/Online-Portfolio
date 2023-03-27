@@ -29,6 +29,7 @@ const Footer = () => {
               {" "}
               <AiOutlineTwitter size={40} />{" "}
             </a>
+            
           </div>
 
   

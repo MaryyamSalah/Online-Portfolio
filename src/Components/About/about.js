@@ -12,11 +12,11 @@ const About = () => {
 
           <p className="pb-5">
             Hi, My Name Is Maryam Salah. I am a
-            Frontend Developer. I build beautifull websites with React and
+            Junior Frontend Web Developer. I build beautifull websites with React and
             Tailwind CSS.
           </p>
           <p className="pb-5">
-            I am proficient in Frontend skills like HTML, CSS, JavaScript, React js, tailwind Css, firebase, GitHub, responsive design and react redux and many more.
+          I am an enthusiastic, self-motivated, reliable, responsible and hard-working person. I have achieved a lot of certificates in software programming and am ready to face new challenges. I have a great foundation of technical skills that I would bring to the role, along with my drive and work ethic.Well-versed in Front-end Coding to deliver the best user experience, with a strong skill in React js , HTML , CSS , JavaScript , Tailwind CSS , Test Jest , Firebase and many more.
           </p>
 
           <p>Combined with my recent Boot camp in front-end web development at Recoded,</p>

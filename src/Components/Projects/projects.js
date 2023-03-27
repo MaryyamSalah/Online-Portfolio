@@ -1,34 +1,31 @@
 import React from "react";
 import project from "../assets/project.jpg";
+import firstImg from "../assets/therapiest.jpg";
+import secondImg from "../assets/redux.jpg";
+import thirdImg from "../assets/movie.jpg"
 
 
 const Projects = () => {
     const projects = [
         {
-          img: project,
-          title: "Healing",
-          desc: " A team work project. Built with react js, firebase,test jest and tailwind Css ",
+          img: firstImg,
+          title: "Online Therapy",
+          desc: " This Project will allow users to schedule an appointment with a therapist and take therapy sessions online through chat,video,and voice calls.Therapists and people who need to talk to therapists but they don't have time or ability  to visit their clinic, or people who have restricted families and don't allow them to visit therapies.  Built with React js, Firebase,Test jest and Tailwind CSS. ",
           live: "https://63d2a15534670f07714bccc0--twmb.netlify.app/",
           code: "https://github.com/Roubaaa/TWMB",
         },
         {
-          img: project,
-          title: "my portfolio",
-          desc: "Portfolio website , Created with HTML and Tailwind Css",
-          live: "https://glistening-mousse-840fe0.netlify.app/index.html",
-          code: "https://github.com/MaryyamSalah/Portfolio",
-        },
-        {
-          img: project,
-          title: "css projects",
-          desc: "team project , created with HTML and Css",
+          img: secondImg,
+          title: "Redux-Toolkit",
+          desc: "This project, build a small blog app. It will fetch posts and comments from an API. I've created  with Redux Toolkit (RTK) and style it with Tailwid CSS.",
           live: "",
-          code: "https://github.com/Banel-Mikhael/flamingo-rest",
+          code: "https://github.com/MaryyamSalah/Redux-toolkit",
         },
+        
         {
-          img: project,
+          img: thirdImg,
           title: "Movie API",
-          desc: "team project , created with movie API ",
+          desc: "This is a movie database project, where it shows movies, their casts, ratings, trailers, related movies, genres, and so on.This project used The Movie DB API: https://api.themoviedb.org/3 .Build with javaScript and Tailwind CSS ",
           live: "",
           code: "https://github.com/daliaJR/movie-project",
         },
@@ -43,8 +40,7 @@ const Projects = () => {
           </h2>
 
           <p className="pb-5">
-            These are some of my best projects. I have built these with React,
-             and tailwind CSS. Check them out.
+           Some of my projects. Check them out.
           </p>
         </div>
       </div>

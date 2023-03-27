@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../assets/Resume.jpg";
+import Resume from "../assets/Resume.png";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
           <img
             src={Resume}
             alt="coding illustration"
-            className="lgw-[80%] md:ml-auto "
+            className="lgw-[80%] md:mx-auto"
           />
         </div>
      

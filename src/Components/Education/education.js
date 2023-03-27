@@ -6,22 +6,22 @@ const Education = () => {
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuiEQsYM7nXbWFIOcHhTFGaUy5J971qvbH5A3wXkOFrgK-CVAzMI6byl2a9F44MNNTqpg&usqp=CAU",
       title: "Bachelor Degree in Software engineering",
       date:"1-Nov-2015 to 20-Jun-2019",
-      learn: "fundamental of programming ,computer network , data security , web programming , java progarmming language,copmuter control system , data structure , image processing and many more. ",
+      learn: "Programming, Logic Design, Computer Organization, Computer Architecture, and Object Oriented Programming & GUI. Software Requirements and Analysis, Database Systems, Web Design, Data Structures and Algorithms, Compiling Techniques. Computer Graphics, Data Communications, Mobile Programming and Applications, Image Processing, Computer Networks, Artificial Intelligence, Software Project Management. ",
       url: "NA",
     },
     {
       img: "https://www.re-coded.com/ReCoded-Logo-Black.png.webp",
       title: "Front-end web development",
       date:"15-Sep 2022 to 30-Jan-2023",
-      learn:"HTML , CSS , React js , React redux , tailwind css, testing with jest , UX/UI Design ,firebase.",
+      learn:"Re:Coded Immersive bootcamps are highly competitive, with a 5% acceptance rate. Completing a 4.5-month immersive web development bootcamp, with 300+ hours of curricula and project-based learning Technologies: HTML, CSS, JavaScript, and React Working with various development teams to create products across industries.",
       url: "https://www.credential.net/74d23f14-4769-428d-bca7-daf92a5d4163",
     },
 
     {
-      img: "https://www.headwayjobs.com/images/rwanga.png",
+      img:"https://thekurdishproject.org/wp-content/uploads/2015/07/RwangaLogo.png",
       title: "Mobile Application development",
       date:"21-Dec 2021 to 1-Mar-2022",
-      learn:"Flutter , Dart , Github , Figma and firebase.",
+      learn:" WeCode is an intensive training Bootcamp project implemented by Rwanga Foundation to remotely train youth in KRI with software development skills and provide adequate technical and soft skills.Technical Skills (Flutter , Dart , Github , Figma and firebase). Soft Skills (Communications, Teamwork, job hunting, Interview skills, … ).",
       url: "na",
     },
   ];
