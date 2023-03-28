@@ -21,7 +21,7 @@ const Education = () => {
       img:"https://thekurdishproject.org/wp-content/uploads/2015/07/RwangaLogo.png",
       title: "Mobile Application development",
       date:"21-Dec 2021 to 1-Mar-2022",
-      learn:" WeCode is an intensive training Bootcamp project implemented by Rwanga Foundation to remotely train youth in KRI with software development skills and provide adequate technical and soft skills.Technical Skills (Flutter , Dart , Github , Figma and firebase). Soft Skills (Communications, Teamwork, job hunting, Interview skills, … ).",
+      learn:" WeCode is an intensive training Bootcamp project implemented by Rwanga Foundation to remotely train youth in KRI with software development skills and provide adequate technical and soft skills.Technical Skills (Flutter , Dart , GitHub , Figma and Firebase). Soft Skills (Communications, Teamwork, job hunting, Interview skills, … ).",
       url: "na",
     },
   ];

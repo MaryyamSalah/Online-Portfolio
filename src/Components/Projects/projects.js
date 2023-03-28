@@ -1,5 +1,4 @@
 import React from "react";
-import project from "../assets/project.jpg";
 import firstImg from "../assets/therapiest.jpg";
 import secondImg from "../assets/redux.jpg";
 import thirdImg from "../assets/movie.jpg"
