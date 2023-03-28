@@ -17,7 +17,7 @@ const Projects = () => {
           img: secondImg,
           title: "Redux-Toolkit",
           desc: "This project, build a small blog app. It will fetch posts and comments from an API. I've created  with Redux Toolkit (RTK) and style it with Tailwid CSS.",
-          live: "",
+          live: "http://redux-toolkit-blogs.netlify.app",
           code: "https://github.com/MaryyamSalah/Redux-toolkit",
         },
         
@@ -25,8 +25,8 @@ const Projects = () => {
           img: thirdImg,
           title: "Movie API",
           desc: "This is a movie database project, where it shows movies, their casts, ratings, trailers, related movies, genres, and so on.This project used The Movie DB API: https://api.themoviedb.org/3 .Build with javaScript and Tailwind CSS ",
-          live: "",
-          code: "https://github.com/daliaJR/movie-project",
+          live: "http://movies-api-fetch.netlify.app",
+          code: "https://github.com/hudahamid/movie-project",
         },
       ];
 
