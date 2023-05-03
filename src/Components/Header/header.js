@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link , NavLink} from "react-router-dom";
 import logo from "../assets/logo.jpg";
 // import Resume from "../assets/Resume.jpg"
 
@@ -24,34 +24,42 @@ const Header = () => {
       </a>
 </div>
       {/* Desktop Nav */}
-      <nav className="hidden md:block">
-        <ul className="flex">
-          <li>
-          <Link to ="/">About</Link>
-          </li>
-          <li>
-          <Link to ="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to ="/education">Education</Link>
-          </li>
-          <li>
-            <Link to ="/contact">Contact</Link>
-          </li>
-
-        
-          <button className="w-20 h-8 bg-white hover:bg-cyan-700 text-gray-800 hover:text-white text-sxl font-bold  border border-cyan-600 rounded-full shadow">
-          <Link to ="/resume">Resume</Link>
-        </button>
-      
-        
-      
-        </ul>
+      <nav className="flex hidden md:block ">
+      <NavLink
+        to="/"
+        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+      >
+        About
+      </NavLink>
+      <NavLink
+        to="/projects"
+        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+      >
+        Project
+      </NavLink>
+      <NavLink
+        to="/education"
+        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+      >
+        Education
+      </NavLink>
+      <NavLink
+        to="/contact"
+        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+      >
+        Contact
+      </NavLink>
+      <NavLink
+        to="/resume"
+        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+      >
+        Resume
+      </NavLink>
       </nav>
 
       {/* Mobile Nav */}
       <nav
-        className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
+        className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0 "}
       >
         <ul className="flex flex-col py-12">
         <li className="py-2">
@@ -68,9 +76,9 @@ const Header = () => {
           </li>
 
         
-          <button className="w-20 h-8 bg-white hover:bg-cyan-700 text-gray-800 hover:text-white text-sxl font-bold  border border-cyan-600 rounded-full shadow">
+          <li className="py-2">
           <Link to ="/resume" onClick={() => setToggle(false)}>Resume</Link>
-        </button>
+        </li>
         </ul>
       </nav>
 

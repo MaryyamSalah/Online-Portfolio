@@ -1,10 +1,14 @@
 import React from "react";
 import AboutImg from "../assets/about.jpeg";
 
+
 const About = () => {
   return (
+    
     <section className="bg-secondery text-white px-5 py-32" id="about">
+     
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
+    
         <div className="about-info">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[170px] border-cyan-700 pb-2">
             About Me
