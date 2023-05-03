@@ -1,5 +1,5 @@
 #Personal portfolio build with React.js and Tailwind Css.
-This project was bootstrapped with Create React App. Demo: https://maryyamsalah.netlify.app
+Demo: https://maryyamsalah.netlify.app
 .....................................
 Features:
 🎨 Modern Design.
