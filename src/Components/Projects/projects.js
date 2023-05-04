@@ -1,6 +1,6 @@
 import React from "react";
-import firstImg from "../assets/therapiest.jpg";
-import secondImg from "../assets/redux.jpg";
+import firstImg from "../assets/Healing.jpg";
+import secondImg from "../assets/khama.jpg";
 import thirdImg from "../assets/movie.jpg"
 
 
@@ -15,10 +15,10 @@ const Projects = () => {
         },
         {
           img: secondImg,
-          title: "Redux-Toolkit",
-          desc: "This project, build a small blog app. It will fetch posts and comments from an API. I've created  with Redux Toolkit (RTK) and style it with Tailwid CSS.",
-          live: "http://redux-toolkit-blogs.netlify.app",
-          code: "https://github.com/MaryyamSalah/Redux-toolkit",
+          title: "Khama.net",
+          desc: "This project build with HTML ,CSS and Responsive design ",
+          live: "https://khama.netlify.app/",
+          code: "https://github.com/MaryyamSalah/Khama-Project",
         },
         
         {
@@ -49,8 +49,8 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img className="" src={project.img} alt={project.title} />
-              <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+              <img className="w-96 h-72" src={project.img} alt={project.title} />
+              <div className="flex absolute left-0 right-0 top-0 bottom-0 mx-auto w-[80] h-[64]  bg-secondery  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">
                   {project.desc}
                 </p>
