@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link , NavLink} from "react-router-dom";
 import logo from "../assets/logo.jpg";
-// import Resume from "../assets/Resume.jpg"
+
 
 
 const Header = () => {
@@ -24,7 +24,7 @@ const Header = () => {
       </a>
 </div>
       {/* Desktop Nav */}
-      <nav className="flex hidden md:block ">
+      <nav className="flex hidden md:block my-4">
       <NavLink
         to="/"
         className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}

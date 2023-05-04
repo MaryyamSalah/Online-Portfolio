@@ -1,23 +1,23 @@
 import React from "react";
-import Resume from "../assets/Resume.png";
+import { Card, CardMedia } from "@mui/material";
 
 
-const About = () => {
-  return (
-    <section className="bg-contain bg-secondery text-white px-5 py-32">
-      
+function Resume() {
+	return (
+			
+					<Card>
+						<CardMedia
+							className="mt-16  w-3/6 h-screen"
+							component="iframe"
+						
+						src="https://drive.google.com/file/d/1ZXCUUuHuEnpLZEbgAoCHQxq3XghGHhtK/preview" 
+						/>
+					</Card>
+				
 
-        <div className="about-img">
-    
-          <img
-            src={Resume}
-            alt="coding illustration"
-            className="lgw-[80%] md:mx-auto"
-          />
-        </div>
-     
-    </section>
-  );
-};
+			
+		
+	);
+}
 
-export default About;
+export default Resume;
