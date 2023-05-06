@@ -12,14 +12,14 @@ const Header = () => {
  
  
   return (
-    <header className="flex justify-between px-5 py-2 bg-accent text-white fixed w-full z-10">
+    <header className="flex justify-between px-5 py-2 bg-rose-900 text-white fixed w-full z-10">
         <div class="flex justify-between ">
         <img
             src={logo}
             alt="coding illustration"
             className="rounded-full w-12 h-12"
           />
-      <a href="/" className="text-2xl font-bold text-cyan-500 px-5 ">
+      <a href="/" className="text-2xl font-bold text-rose-100 px-5 ">
         Maryam Salah
       </a>
 </div>
@@ -27,31 +27,31 @@ const Header = () => {
       <nav className="flex hidden md:block my-4">
       <NavLink
         to="/"
-        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+        className={({ isActive }) => (isActive ? "link-active text-rose-100 px-8" : "link px-8 text-black")}
       >
         About
       </NavLink>
       <NavLink
         to="/projects"
-        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+        className={({ isActive }) => (isActive ? "link-active text-rose-100 px-8" : "link px-8 text-black")}
       >
         Project
       </NavLink>
       <NavLink
         to="/education"
-        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+        className={({ isActive }) => (isActive ? "link-active text-rose-100 px-8" : "link px-8 text-black")}
       >
         Education
       </NavLink>
       <NavLink
         to="/contact"
-        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+        className={({ isActive }) => (isActive ? "link-active text-rose-100 px-8" : "link px-8 text-black")}
       >
         Contact
       </NavLink>
       <NavLink
         to="/resume"
-        className={({ isActive }) => (isActive ? "link-active text-cyan-500 px-8" : "link px-8")}
+        className={({ isActive }) => (isActive ? "link-active text-rose-100 px-8" : "link px-8 text-black ")}
       >
         Resume
       </NavLink>
@@ -59,9 +59,9 @@ const Header = () => {
 
       {/* Mobile Nav */}
       <nav
-        className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0 "}
+        className={!toggle ? "mobile-nav left-[-100%] mt-6 " : "mobile-nav left-0 mt-6"}
       >
-        <ul className="flex flex-col py-12">
+        <ul className="flex flex-col pb-12">
         <li className="py-2">
           <Link to ="/" onClick={() => setToggle(false)}>About</Link>
           </li>
