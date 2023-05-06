@@ -41,7 +41,7 @@ export default function Education() {
                 <div className="relative flex flex-col min-w-0 break-words bg-zinc-800 w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className=" p-3 text-center inline-flex items-center justify-center w-32 h-32 mb-5 shadow-lg rounded-full bg-white ">
-                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuiEQsYM7nXbWFIOcHhTFGaUy5J971qvbH5A3wXkOFrgK-CVAzMI6byl2a9F44MNNTqpg&usqp=CAU" />
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuiEQsYM7nXbWFIOcHhTFGaUy5J971qvbH5A3wXkOFrgK-CVAzMI6byl2a9F44MNNTqpg&usqp=CAU" alt="img" />
                     </div>
                     <h6 className="text-xl font-semibold">Bachelor Degree in Software engineering</h6>
                     <h5 className="py-5 text-xl">1-Nov-2015 to 20-Jun-2019</h5>
@@ -57,7 +57,7 @@ export default function Education() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className=" p-3 text-center inline-flex items-center justify-center w-32 h-32 mb-5 shadow-lg rounded-full bg-white ">
-                     <img src="https://global-uploads.webflow.com/63ce921b1a2c847a9792d321/644928973654c33fea4f1ad5_Nav%20Logo.png" />
+                     <img src="https://global-uploads.webflow.com/63ce921b1a2c847a9792d321/644928973654c33fea4f1ad5_Nav%20Logo.png" alt="img2" />
                     </div>
                     <h6 className="text-xl font-semibold">Front-end web development</h6>
                     <h5 className="py-5 text-xl">15-Sep 2022 to 30-Jan-2023</h5>
@@ -79,7 +79,7 @@ export default function Education() {
                 <div className="relative flex flex-col min-w-0 break-words bg-zinc-800 w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className=" p-3 text-center inline-flex items-center justify-center w-32 h-32 mb-5 shadow-lg rounded-full bg-white ">
-                     <img src="https://thekurdishproject.org/wp-content/uploads/2015/07/RwangaLogo.png" />
+                     <img src="https://thekurdishproject.org/wp-content/uploads/2015/07/RwangaLogo.png" alt="img2"/>
                     </div>
                     <h6 className="text-xl font-semibold">Mobile Application development</h6>
                     <h5 className="py-5 text-xl">21-Dec 2021 to 1-Mar-2022</h5>
