@@ -59,24 +59,24 @@ const Header = () => {
 
       {/* Mobile Nav */}
       <nav
-        className={!toggle ? "mobile-nav left-[-100%] mt-6 " : "mobile-nav left-0 mt-6"}
+        className={!toggle ? "block md:hidden fixed top-10 py-2 w-1/2 h-1/2 bg-zinc-900 duration-500 left-[-100%] mt-6 " : " block md:hidden fixed top-10 py-2 w-1/2 h-screen bg-zinc-900 duration-500 left-0 mt-6"}
       >
         <ul className="flex flex-col pb-12">
-        <li className="py-2">
+        <li className="px-4 py-5 text-lg hover:text-rose-800">
           <Link to ="/" onClick={() => setToggle(false)}>About</Link>
           </li>
-          <li className="py-2">
+          <li className="px-4 py-5 text-lg hover:text-rose-800">
           <Link to ="/projects" onClick={() => setToggle(false)}>Projects</Link>
           </li>
-          <li className="py-2">
+          <li className="px-4 py-5 text-lg hover:text-rose-800">
             <Link to ="/education" onClick={() => setToggle(false)}>Education</Link>
           </li>
-          <li className="py-2">
+          <li className="px-4 py-5 text-lg hover:text-rose-800">
             <Link to ="/contact" onClick={() => setToggle(false)}>Contact</Link>
           </li>
 
         
-          <li className="py-2">
+          <li className="px-4 py-5 text-lg hover:text-rose-800">
           <Link to ="/resume" onClick={() => setToggle(false)}>Resume</Link>
         </li>
         </ul>

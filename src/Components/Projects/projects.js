@@ -52,7 +52,7 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img className="w-96 h-72" src={project.img} alt={project.title} />
+              <img className="mx-auto w-[80] h-[64] " src={project.img} alt={project.title} />
               <div className="flex absolute left-0 right-0 top-0 bottom-0 mx-auto w-[80] h-[64]  bg-rose-900  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">
                   {project.desc}
