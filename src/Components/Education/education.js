@@ -38,14 +38,14 @@ export default function Education() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-zinc-800 w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-slate-100 w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className=" p-3 text-center inline-flex items-center justify-center w-32 h-32 mb-5 shadow-lg rounded-full bg-white ">
                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuiEQsYM7nXbWFIOcHhTFGaUy5J971qvbH5A3wXkOFrgK-CVAzMI6byl2a9F44MNNTqpg&usqp=CAU" alt="img" />
                     </div>
                     <h6 className="text-xl font-semibold">Bachelor Degree in Software engineering</h6>
                     <h5 className="py-5 text-xl">1-Nov-2015 to 20-Jun-2019</h5>
-                    <p className="mt-2 mb-4 text-white">
+                    <p className="mt-2 mb-4 text-gray-600">
                     Programming, Logic Design, Computer Organization, Computer Architecture, and Object Oriented Programming & GUI. Software Requirements and Analysis, Database Systems, Web Design, Data Structures and Algorithms, Compiling Techniques. Computer Graphics, Data Communications, Mobile Programming and Applications, Image Processing, Computer Networks, Artificial Intelligence, Software Project Management.
                     </p>
                     
@@ -76,14 +76,14 @@ export default function Education() {
               </div>
 
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-zinc-800 w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-slate-100 w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className=" p-3 text-center inline-flex items-center justify-center w-32 h-32 mb-5 shadow-lg rounded-full bg-white ">
                      <img src="https://thekurdishproject.org/wp-content/uploads/2015/07/RwangaLogo.png" alt="img2"/>
                     </div>
                     <h6 className="text-xl font-semibold">Mobile Application development</h6>
                     <h5 className="py-5 text-xl">21-Dec 2021 to 1-Mar-2022</h5>
-                    <p className="mt-2 mb-4 text-white">
+                    <p className="mt-2 mb-4 text-gray-600">
                     WeCode is an intensive training Bootcamp project implemented by Rwanga Foundation to remotely train youth in KRI with software development skills and provide adequate technical and soft skills.Technical Skills (Flutter , Dart , GitHub , Figma and Firebase). Soft Skills (Communications, Teamwork, job hunting, Interview skills, … ).
                     </p>
                     
